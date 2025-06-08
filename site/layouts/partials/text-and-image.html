@@ -9,12 +9,14 @@
 			</div>
 
 			<div class="w-60-l ph2-l">
-				<img src="img/home-about-section.jpg" alt="" class="mb3">
+				<img src="{{.image}}" alt="" class="mb3">
+				{{if .extended_text}}
+				<p class="f6 grey-3">{{.extended_text}}</p>
+				{{end}}
 			</div>
 		</div>
 
 		<div class="tc">
-			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
 		</div>
 
 	</div>

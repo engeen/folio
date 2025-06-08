@@ -8,13 +8,13 @@
 			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
 			<p>{{ .Site.Data.footer.blurb }}</p>
 
-			{{ partial "newsletter-form" . }}
+			<!-- {{ partial "newsletter-form" . }} -->
 
 		</div>
 
 		<div class="flex-ns justify-between">
 
-			<div>
+			<!-- <div>
 				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
 				<ul class="mb3">
 					<li><a href="/" class="link">Home</a></li>
@@ -32,14 +32,12 @@
 					<li><a href="/contact" class="link">Schedule an appointment</a></li>
 				</ul>
 			</div>
-
+ -->
 			<div>
 				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
+					{{ partial "social-icon" (dict "link" "https://www.linkedin.com/in/yuriynovikov" "svg" "icons-linkedin" "alt" "Yuriy Novikov on LinkedIn") }}
+					{{ partial "social-icon" (dict "link" "https://t.me/jvnovikov" "svg" "icons-telegram" "alt" "Yuriy Novikov on Telegram") }}
 				</ul>
 			</div>
 

@@ -6,8 +6,14 @@
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "image" .Params.values.image "extended_text" .Params.values.extended_text) }}
 
-{{ partial "blog" . }}
+{{ partial "text-and-image" (dict "heading" .Params.values1.heading "text" .Params.values1.text "image" .Params.values1.image "extended_text" .Params.values1.extended_text) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.values2.heading "text" .Params.values2.text "image" .Params.values2.image "extended_text" .Params.values2.extended_text) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.values3.heading "text" .Params.values3.text "image" .Params.values3.image "extended_text" .Params.values3.extended_text) }}
+
+{{ partial "text-and-image" (dict "heading" .Params.values4.heading "text" .Params.values4.text "image" .Params.values4.image "extended_text" .Params.values4.extended_text) }}
 
 {{ end }}
