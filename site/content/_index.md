@@ -1,13 +1,15 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "Полноценные веб-решения для вашего бизнеса"
+subtitle: Интерфейсы и архитектура которые работают
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Когда ко мне?
+    text: "Есть множество простых и дешевых способов сделать веб-страницу или сайт. Я делаю не сайты: я делаю решения которые работают и приносят деньги. Сюда входит и понимание того как 
+    интерфейсы работают с вниманием пользователя, и знание способов эффективного создание ПО под
+    конкретно Ваши задчи"
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "Что я предлагаю"
+    text: "Персональный подход и простые шаги: интервью - от 10 минут до часа - сбор первиычных требований. Предложение и роудмэп, эскизы при необходимости. Решение, эскизы, предложение, план. Реализация с использованием оптимальных технологий - в срок и с учетом всех факторов."
 products:
     - image: img/illustrations-coffee.svg
       text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
